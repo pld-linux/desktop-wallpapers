@@ -8,6 +8,7 @@ Group:		X11/Applications/Multimedia
 Source0:	space-%{version}.tar.gz
 # Source0-md5:	fa40848b6f9377cecbbc9a8ade54cc20
 Source1:	gnome-tiles-%{version}.tar.gz
+# Source1-md5:	f754e713421bf2c38c4d318794a50c80
 Source2:	Propaganda-%{version}.tar.gz
 # Source2-md5:	9a41ff73a67967715010ed6703898aad
 Source3:	README.Propaganda.gz
