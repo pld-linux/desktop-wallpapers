@@ -2,7 +2,7 @@ Summary:	Desktop Background Images
 Summary(pl):	Obrazki na t³o pulpitu
 Name:		desktop-backgrounds
 Version:	1.0.0
-Release:	6
+Release:	7
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Source0:	space-%{version}.tar.gz
@@ -37,8 +37,8 @@ cp -f %{SOURCE3} %{SOURCE4} %{SOURCE5} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/pixmaps/backgrounds
-cd $RPM_BUILD_ROOT%{_datadir}/pixmaps/backgrounds
+install -d $RPM_BUILD_ROOT%{_datadir}/wallpapers
+cd $RPM_BUILD_ROOT%{_datadir}/wallpapers
 tar xzf %{SOURCE0}
 tar xzf %{SOURCE1}
 tar xzf %{SOURCE2}
@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc {README.space,README.Propaganda,PHOTO_FAQ.ps}.gz
-%{_pixmapsdir}/backgrounds/space
-%{_pixmapsdir}/backgrounds/tiles
-%{_pixmapsdir}/backgrounds/Propaganda
+%{_datadir}/wallpapers/space
+%{_datadir}/wallpapers/tiles
+%{_datadir}/wallpapers/Propaganda
