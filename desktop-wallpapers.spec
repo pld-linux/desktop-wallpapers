@@ -10,7 +10,7 @@ Source2:	Propaganda-1.0.0.tar.gz
 Source3:	README.Propaganda.gz
 Source4:	README.space.gz
 Source5:	PHOTO_FAQ.ps.gz
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-imglib
 BuildArchitectures:	noarch
 
