@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 - First attempt
 
 %files
-%defattr(-, root, root)
+%defattr(-,root,root)
 %doc README.space README.Propaganda PHOTO_FAQ.ps
 %{prefix}/share/pixmaps/backgrounds/space
 %{prefix}/share/pixmaps/backgrounds/tiles
