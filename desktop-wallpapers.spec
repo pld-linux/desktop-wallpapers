@@ -15,7 +15,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-imglib
 BuildArch:	noarch
 
-%define		_prefix	/usr/X11R6
 
 %description
 If you use a desktop environment like GNOME you can use these images
