@@ -19,6 +19,7 @@ Source5:	PHOTO_FAQ.ps.gz
 # Source5-md5:	11e011110e96d43dcafaae9dc1bba80b
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-imglib
+Obsoletes:	desktop-backgrounds
 BuildArch:	noarch
 
 
