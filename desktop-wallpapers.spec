@@ -2,9 +2,10 @@ Summary:	Desktop Background Images.
 Name:		desktop-backgrounds
 Version:	1.0.0
 Release:	6
-Copyright:	LGPL
-Group:		Applications/Multimedia
-Source:		space-1.0.0.tar.gz
+License:	LGPL
+Group:		X11/Applications/Multimedia
+Group(pl):	X11/Aplikacje/Multimedia
+Source0:	space-1.0.0.tar.gz
 Source1:	gnome-tiles-1.0.0.tar.gz
 Source2:	Propaganda-1.0.0.tar.gz
 Source3:	README.Propaganda.gz
@@ -21,11 +22,11 @@ If you use a desktop environment like GNOME you can use these images
 to spruce up your background.
 
 %description -l pl
-Je¶li u¿ywa siê ¶rodowiska graficznego (np. GNOME), mo¿na wykorzystaæ 
+Je¶li u¿ywa siê ¶rodowiska graficznego (np. GNOME), mo¿na wykorzystaæ
 te pakiety by t³o wygl±da³o bardziej estetycznie.
 
 %prep
-%setup -c %{name}-%{version} -T -D
+%setup -q -c %{name}-%{version} -T -D
 
 cp %{SOURCE3} $RPM_BUILD_DIR/%{name}-%{version}
 cp %{SOURCE4} $RPM_BUILD_DIR/%{name}-%{version}
