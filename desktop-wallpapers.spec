@@ -6,11 +6,16 @@ Release:	6
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Source0:	space-%{version}.tar.gz
+# Source0-md5:	fa40848b6f9377cecbbc9a8ade54cc20
 Source1:	gnome-tiles-%{version}.tar.gz
 Source2:	Propaganda-%{version}.tar.gz
+# Source2-md5:	9a41ff73a67967715010ed6703898aad
 Source3:	README.Propaganda.gz
+# Source3-md5:	93cc41eedf423557b3016af7e952fe42
 Source4:	README.space.gz
+# Source4-md5:	bf99dba5452a01cf7334a1a2d79c4ca4
 Source5:	PHOTO_FAQ.ps.gz
+# Source5-md5:	11e011110e96d43dcafaae9dc1bba80b
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-imglib
 BuildArch:	noarch
