@@ -46,6 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc {README.space,README.Propaganda,PHOTO_FAQ.ps}.gz
-%{_datadir}/pixmaps/backgrounds/space
-%{_datadir}/pixmaps/backgrounds/tiles
-%{_datadir}/pixmaps/backgrounds/Propaganda
+%{_pixmapsdir}/backgrounds/space
+%{_pixmapsdir}/backgrounds/tiles
+%{_pixmapsdir}/backgrounds/Propaganda
