@@ -5,8 +5,6 @@ Version:	1.0.0
 Release:	6
 License:	LGPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	space-%{version}.tar.gz
 Source1:	gnome-tiles-%{version}.tar.gz
 Source2:	Propaganda-%{version}.tar.gz
