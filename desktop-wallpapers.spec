@@ -20,6 +20,10 @@ BuildArchitectures:	noarch
 If you use a desktop environment like GNOME you can use these images
 to spruce up your background.
 
+%description -l pl
+Je¶li u¿ywa siê ¶rodowiska graficznego (np. GNOME), mo¿na wykorzystaæ 
+te pakiety by t³o wygl±da³o bardziej estetycznie.
+
 %prep
 %setup -c %{name}-%{version} -T -D
 
