@@ -15,7 +15,7 @@ Source3: README.Propaganda
 Source4: README.space
 Source5: PHOTO_FAQ.ps
 
-BuildRoot:/var/tmp/desktop-backgrounds-%{PACKAGE_VERSION}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 Obsoletes: gnome-imglib
 
