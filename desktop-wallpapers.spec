@@ -44,18 +44,3 @@ tar xzf %{SOURCE2}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%changelog
-* Fri Apr  2 1999 Jonathan Blandford <jrb@redhat.com>
-- added propaganda tiles.  Spruced it up a bit
-- moved README files out of tarball, and into docs dir.
-
-* Fri Mar 19 1999 Michael Fulbright <drmike@redhat.com>
-- First attempt
-
-%files
-%defattr(-,root,root)
-%doc README.space README.Propaganda PHOTO_FAQ.ps
-%{prefix}/share/pixmaps/backgrounds/space
-%{prefix}/share/pixmaps/backgrounds/tiles
-%{prefix}/share/pixmaps/backgrounds/Propaganda
