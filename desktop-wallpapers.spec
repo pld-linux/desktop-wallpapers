@@ -1,6 +1,6 @@
 Summary:	Desktop Background Images
 Summary(pl):	Obrazki na t³o pulpitu
-Name:		desktop-backgrounds
+Name:		desktop-wallpapers
 Version:	1.0.0
 Release:	7
 License:	LGPL
