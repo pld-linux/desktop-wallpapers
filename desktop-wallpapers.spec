@@ -1,19 +1,21 @@
-Summary:	Desktop Background Images.
+Summary:	Desktop Background Images
+Summary(pl):	Obrazki na t³o pulpitu
 Name:		desktop-backgrounds
 Version:	1.0.0
 Release:	6
 License:	LGPL
 Group:		X11/Applications/Multimedia
+Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
-Source0:	space-1.0.0.tar.gz
-Source1:	gnome-tiles-1.0.0.tar.gz
-Source2:	Propaganda-1.0.0.tar.gz
+Source0:	space-%{version}.tar.gz
+Source1:	gnome-tiles-%{version}.tar.gz
+Source2:	Propaganda-%{version}.tar.gz
 Source3:	README.Propaganda.gz
 Source4:	README.space.gz
 Source5:	PHOTO_FAQ.ps.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-imglib
-BuildArchitectures:	noarch
+BuildArch:	noarch
 
 %define		_prefix	/usr/X11R6
 
@@ -28,9 +30,7 @@ te pakiety by t³o wygl±da³o bardziej estetycznie.
 %prep
 %setup -q -c %{name}-%{version} -T -D
 
-cp %{SOURCE3} $RPM_BUILD_DIR/%{name}-%{version}
-cp %{SOURCE4} $RPM_BUILD_DIR/%{name}-%{version}
-cp %{SOURCE5} $RPM_BUILD_DIR/%{name}-%{version}
+cp -f %{SOURCE3} %{SOURCE4} %{SOURCE5} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
