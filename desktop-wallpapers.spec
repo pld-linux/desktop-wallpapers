@@ -1,5 +1,5 @@
 Summary:	Desktop Background Images
-Summary(pl.UTF-8):   Obrazki na tło pulpitu
+Summary(pl.UTF-8):	Obrazki na tło pulpitu
 Name:		desktop-wallpapers
 Version:	1.0.0
 Release:	7
