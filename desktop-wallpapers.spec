@@ -1,5 +1,5 @@
 Summary:	Desktop Background Images
-Summary(pl):	Obrazki na t≥o pulpitu
+Summary(pl.UTF-8):   Obrazki na t≈Ço pulpitu
 Name:		desktop-wallpapers
 Version:	1.0.0
 Release:	7
@@ -27,9 +27,9 @@ BuildArch:	noarch
 If you use a desktop environment like GNOME you can use these images
 to spruce up your background.
 
-%description -l pl
-Je∂li uøywa siÍ ∂rodowiska graficznego (np. GNOME), moøna wykorzystaÊ
-te pakiety by t≥o wygl±da≥o bardziej estetycznie.
+%description -l pl.UTF-8
+Je≈õli u≈ºywa siƒô ≈õrodowiska graficznego (np. GNOME), mo≈ºna wykorzystaƒá
+te pakiety by t≈Ço wyglƒÖda≈Ço bardziej estetycznie.
 
 %prep
 %setup -q -c %{name}-%{version} -T -D
