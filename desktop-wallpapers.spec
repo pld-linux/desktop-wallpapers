@@ -17,10 +17,10 @@ Source4:	README.space.gz
 # Source4-md5:	bf99dba5452a01cf7334a1a2d79c4ca4
 Source5:	PHOTO_FAQ.ps.gz
 # Source5-md5:	11e011110e96d43dcafaae9dc1bba80b
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	gnome-imglib
 Obsoletes:	desktop-backgrounds
+Obsoletes:	gnome-imglib
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
@@ -33,8 +33,7 @@ te pakiety by tło wyglądało bardziej estetycznie.
 
 %prep
 %setup -q -c %{name}-%{version} -T -D
-
-cp -f %{SOURCE3} %{SOURCE4} %{SOURCE5} .
+cp -a %{SOURCE3} %{SOURCE4} %{SOURCE5} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
